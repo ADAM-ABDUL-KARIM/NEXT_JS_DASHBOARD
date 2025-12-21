@@ -11,7 +11,8 @@ export default function InvoiceStatus({ status }: { status: string }) {
           'bg-green-500 text-white': status === 'paid',
         },
       )}
-    >
+    > 
+    
       {status === 'pending' ? (
         <>
           Pending
